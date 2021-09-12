@@ -34,7 +34,7 @@ public class DynamicElement {
 
         for (int i = 0; i < elementStore.size(); i++) {
             String items = elementStore.get(i).getText();
-            if (items.contains("testing tools"))
+            if (items.contains("testing time"))
             {
                 elementStore.get(i).click();
                 break;
